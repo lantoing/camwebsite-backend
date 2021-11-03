@@ -22,6 +22,15 @@ module.exports = {
       price: 49.99,
       slug: "pullnasa",
       status: "published",
+      Custom_field: [
+        {
+          id: 1,
+          title: "Select the size of your sticker",
+          required: true,
+          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
+        },
+      ],
+
       image: null,
       categories: [
         {
@@ -37,6 +46,15 @@ module.exports = {
       price: 19.99,
       slug: "tshirttatie",
       status: "published",
+      Custom_field: [
+        {
+          id: 1,
+          title: "Select the size of your sticker",
+          required: true,
+          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
+        },
+      ],
+
       image: null,
       categories: [
         {
@@ -51,6 +69,15 @@ module.exports = {
       price: 99.99,
       slug: "manteaurose",
       status: "published",
+      Custom_field: [
+        {
+          id: 1,
+          title: "Select the size of your sticker",
+          required: true,
+          options: "Small[+0.00]|Medium[+0.40]|Large[+0.80]",
+        },
+      ],
+
       image: null,
       categories: [
         {
